@@ -5,13 +5,13 @@
 ip_start=104.20.26
 ip_ending=104.20.50
 # 定义并发的进程数,也就是每次ping的ip数
-thread_num=10
+thread_num=14
 # 定义每个ip ping的次数
-time2=6
+time2=14
 # 定义最大延迟
-time1=120
+time1=140
 # 定义最大丢包率
-lost=6
+lost=5
 
 ###################################
 # 新建一个FIFO类型的变量
