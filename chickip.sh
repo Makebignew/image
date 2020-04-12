@@ -2,16 +2,16 @@
 # chickip.sh
 
 # 定义ip段,最多测到第三个字节！！！第四个字节不用写，两个定义一样就只测第四个字节
-ip_start=104.20.26
-ip_ending=104.20.120
+ip_start=104.16.0
+ip_ending=104.16.65
 # 定义并发的进程数,也就是每次ping的ip数
-thread_num=20
+thread_num=30
 # 定义每个ip ping的次数
-time2=15
+time2=25
 # 定义最大延迟
-time1=160
+time1=170
 # 定义最大丢包率
-lost=5
+lost=6
 
 ###################################
 # 新建一个FIFO类型的变量
