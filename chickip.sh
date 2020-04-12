@@ -9,7 +9,7 @@ thread_num=10
 # 定义每个ip ping的次数
 time2=6
 # 定义最大延迟
-time1=50
+time1=120
 # 定义最大丢包率
 lost=6
 
